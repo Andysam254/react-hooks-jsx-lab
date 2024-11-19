@@ -1,14 +1,13 @@
 import React from "react";
-import { name, city } from "../data/data.js";
 
-function Home() {
+function NavBar() {
+  // update the JSX being returned!
   return (
-    <div id="home">
-      <h1 style={{ color: "firebrick" }}>
-        {name} is a Web Developer from {city}
-      </h1>
-    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+    </nav>
   );
 }
 
-export default Home;
+export default NavBar;
